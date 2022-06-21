@@ -67,6 +67,7 @@ function createWaifusView(message = Discord.Message) {
         const imageMessage = new Discord.MessageEmbed({
             title: WaifusContent[i].name,
             description: WaifusContent[i].description,
+            color: "#FF8000",
             image: {
                 url: WaifusContent[i].img
             },
