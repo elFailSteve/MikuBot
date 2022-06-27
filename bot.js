@@ -12,6 +12,12 @@ const client = new Discord.Client({
 
 client.on('ready', () => {
     console.log("Listo")
+
+    client.user.setPresence(
+        {
+            activities:[{name: "!help", type: 'LISTENING'}]
+        }
+    )
 })
 
 client.on('guildMemberAdd', member => {
@@ -33,12 +39,14 @@ async function createNewMemberView(Name = "", urlImg = "") {
         "Bienvenido"
     ]
 
+    var Random = Math.floor(Math.random() * Saludos.length)
+
     const imgMessage = new Discord.MessageEmbed({
         title: Name,
         thumbnail: {
             url: urlImg
         },
-        description: Saludos[Math.random() * 2],
+        description: Saludos[Random],
         color: "#FFA833",
         timestamp: new Date()
     })
