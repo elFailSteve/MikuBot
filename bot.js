@@ -88,5 +88,3 @@ function createWaifusView(message = Discord.Message) {
         }
     }
 }
-
-client.login("ODI3NzA5NjM4NzEwOTE5MjEy.GqmFOG.uDuG_RUZxcgiLMiv3cUnHG7iBT7yKVYMaQo72U")
