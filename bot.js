@@ -89,4 +89,4 @@ function createWaifusView(message = Discord.Message) {
     }
 }
 
-client.login("ODI3NzA5NjM4NzEwOTE5MjEy.GftSlo.rDHk5MH1w23Us7JShe7BBQidCknBOZ6Jl-L87I")
+client.login("ODI3NzA5NjM4NzEwOTE5MjEy.GqmFOG.uDuG_RUZxcgiLMiv3cUnHG7iBT7yKVYMaQo72U")
