@@ -1,4 +1,12 @@
 {
+  "name": "bot",
+  "version": "0.0.2",
+  "description": "A general waifu bot",
+  "author": "Steve",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
   "dependencies": {
     "discord.js": "^13.11.0",
     "node.js": "^0.0.1-security"
